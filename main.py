@@ -4,7 +4,7 @@ import os
 TOKEN = os.environ.get("BOT_TOKEN")
 
 def start(update, context):
-update.message.reply_text("سلام! من فعال هستم.")
+    update.message.reply_text("سلام! من فعال هستم.")
 
 def main():
 updater = Updater(TOKEN, use_context=True)
